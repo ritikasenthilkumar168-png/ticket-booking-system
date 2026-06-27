@@ -1,0 +1,110 @@
+/* === GLOBAL STYLES === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI',Arial, sans-serif;
+    color: #333;
+    background-color: #f5f6fa;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #1e293b;
+    color: #ffffff;
+}
+
+header h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* === NAVIGATION SPACING === */
+
+header{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* === INTRO SECTION SPACING === */
+
+.intro{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.intro h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.intro p{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+/* ===MAIN SECTION SPACING === */
+
+main{
+    padding: 50px 40px;
+}
+
+main h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* === EVENT CARD DESIGN === */
+
+.event-listing{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.event-card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover{
+    transform: translateY(-5px);
+}
+
+.event-card h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1e293b;
+}
+
+.event-card p{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
