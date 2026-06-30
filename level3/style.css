@@ -132,3 +132,17 @@ main h2{
 .book-btn:hover {
     background-color: #0ea5e9;
 }
+
+/* === EVENT DETAILS SECTION === */
+
+.event-details {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.event-details p{
+    font-size: 13px;
+    color: #475569;
+    margin-bottom: 4px;
+}
