@@ -146,3 +146,23 @@ main h2{
     color: #475569;
     margin-bottom: 4px;
 }
+
+/* === DETAILS TOGGLE === */
+.event-details {
+  display: none; 
+}
+
+.details-btn {
+  background-color: #64748b;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.details-btn:hover {
+  background-color: #475569;
+}
