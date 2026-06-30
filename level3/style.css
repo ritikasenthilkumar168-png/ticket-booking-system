@@ -115,3 +115,20 @@ main h2{
   border-radius: 8px;
   margin-bottom: 12px;
 }
+
+/* === BOOK TICKET BUTTON === */
+.book-btn {
+    background-color: #38bdf8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #0ea5e9;
+}
