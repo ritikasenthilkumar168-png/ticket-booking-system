@@ -298,3 +298,40 @@ main h2{
     padding: 20px 10px;
   }
 }
+
+/* === UI CONSISTENCY === */
+
+/* Smooth scroll for nav links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Consistent heading colors */
+h2 {
+  color: #1e293b;
+}
+
+/* Consistent link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Consistent button cursor */
+button {
+  cursor: pointer;
+}
+
+/* Consistent section backgrounds alternating */
+.intro {
+  background-color: #f8fafc;
+}
+
+.booking-section {
+  background-color: #f1f5f9;
+}
+
+/* Consistent card shadow */
+.event-card {
+  border: 1px solid #e2e8f0;
+}
