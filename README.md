@@ -28,10 +28,7 @@ EventHub allows users to:
 
 ##  Project Structure
 
-```text
-## 📁 Project Structure
-
-```text
+```
 EventHub/
 │
 ├── level1/
@@ -57,9 +54,6 @@ EventHub/
 │
 └── README.md
 ```
-```
-
----
 
 ##  How to Run
 
@@ -68,7 +62,6 @@ EventHub/
 
 No installation is required.
 
----
 
 ##  Features
 
@@ -78,8 +71,6 @@ No installation is required.
 - Ticket booking form
 - Form validation
 - Clean and simple user interface
-
----
 
 ##  Internship Project
 
