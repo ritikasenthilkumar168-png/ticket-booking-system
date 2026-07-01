@@ -1,0 +1,300 @@
+/* === GLOBAL STYLES === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI',Arial, sans-serif;
+    color: #333;
+    background-color: #f5f6fa;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #1e293b;
+    color: #ffffff;
+}
+
+header h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* === NAVIGATION SPACING === */
+
+header{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* === INTRO SECTION SPACING === */
+
+.intro{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.intro h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.intro p{
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+/* ===MAIN SECTION SPACING === */
+
+main{
+    padding: 50px 40px;
+}
+
+main h2{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* === EVENT CARD DESIGN === */
+
+.event-listing{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.event-card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 4px 10px rgba(0,0,0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.event-card:hover{
+    transform: translateY(-5px);
+}
+
+.event-card h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1e293b;
+}
+
+.event-card p{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+/* ===== EVENT CARD IMAGES ===== */
+.event-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* === BOOK TICKET BUTTON === */
+.book-btn {
+    background-color: #38bdf8;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #0ea5e9;
+}
+
+/* === EVENT DETAILS SECTION === */
+
+.event-details {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #e2e8f0;
+}
+
+.event-details p{
+    font-size: 13px;
+    color: #475569;
+    margin-bottom: 4px;
+}
+
+/* === DETAILS TOGGLE === */
+.event-details {
+  display: none; 
+}
+
+.details-btn {
+  background-color: #64748b;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.details-btn:hover {
+  background-color: #475569;
+}
+
+/* === BOOKING FORM SECTION === */
+.booking-section {
+  background-color: #ffffff;
+  padding: 50px 40px;
+  text-align: center;
+}
+
+.booking-section h2 {
+  font-size: 28px;
+  color: #1e293b;
+  margin-bottom: 30px;
+}
+
+.booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #38bdf8;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #1e293b;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #38bdf8;
+}
+
+#form-message {
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* Tablet */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .event-listing {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-card {
+    width: 90%;
+  }
+
+  .booking-form {
+    width: 90%;
+  }
+
+  main {
+    padding: 30px 20px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  .intro h2 {
+    font-size: 24px;
+  }
+
+  .intro p {
+    font-size: 14px;
+  }
+
+  .event-card {
+    width: 100%;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 20px 10px;
+  }
+}
