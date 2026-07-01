@@ -85,3 +85,40 @@
    </section>
     <script src="script.js"></script>
 </body>
+
+<!-- === BOOKING FORM SECTION === -->
+<section id="booking" class="booking-section">
+  <h2>Book Your Ticket</h2>
+  <div class="booking-form">
+
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your full name">
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Enter your email">
+    </div>
+
+    <div class="form-group">
+      <label for="event">Select Event</label>
+      <select id="event">
+        <option value="">-- Select an Event --</option>
+        <option value="movie">Avengers: Endgame Re-release</option>
+        <option value="concert">Coldplay Live in Concert</option>
+        <option value="cricket">India vs Australia - T20</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="tickets">Number of Tickets</label>
+      <input type="number" id="tickets" placeholder="Enter number of tickets" min="1" max="10">
+    </div>
+
+    <button class="submit-btn" onclick="submitBooking()">Confirm Booking</button>
+
+    <p id="form-message"></p>
+
+  </div>
+</section>
